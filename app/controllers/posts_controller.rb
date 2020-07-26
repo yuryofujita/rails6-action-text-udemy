@@ -4,7 +4,8 @@ class PostsController < ApplicationController
   # GET /posts
   # GET /posts.json
   def index
-    #binding.pry
+    binding.pry
+    @foo = 1
     @posts = Post.all
   end
 
